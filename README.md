@@ -3,4 +3,4 @@ A collection of projects for a blog series on improving and optimising view cont
 
 #### Swift Version
 
-
+[01_FatTableView](https://github.com/jhihguan/TableViewTuneUp/tree/master/swift/01_FatTableView)
