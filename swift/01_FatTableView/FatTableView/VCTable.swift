@@ -11,7 +11,7 @@ import UIKit
 class VCTable: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
-    let kURL = "http://1sonplaceholder.typicode.com/photos"
+    let kURL = "http://jsonplaceholder.typicode.com/photos"
     var refresh = UIRefreshControl()
     var datas = [VCTableCellData]()
     

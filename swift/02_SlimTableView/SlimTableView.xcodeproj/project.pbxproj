@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E32FBE7C1BF82376000D9520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FBE7B1BF82376000D9520 /* AppDelegate.swift */; };
+		E32FBE811BF82376000D9520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32FBE7F1BF82376000D9520 /* Main.storyboard */; };
+		E32FBE831BF82376000D9520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32FBE821BF82376000D9520 /* Assets.xcassets */; };
+		E32FBE861BF82376000D9520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32FBE841BF82376000D9520 /* LaunchScreen.storyboard */; };
+		E32FBE911BF82376000D9520 /* SlimTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FBE901BF82376000D9520 /* SlimTableViewTests.swift */; };
+		E32FBEA81BF8286C000D9520 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FBEA31BF8286C000D9520 /* TableCell.swift */; };
+		E32FBEA91BF8286C000D9520 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E32FBEA41BF8286C000D9520 /* TableCell.xib */; };
+		E32FBEAA1BF8286C000D9520 /* VCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FBEA51BF8286C000D9520 /* VCTable.swift */; };
+		E32FBEAB1BF8286C000D9520 /* VCTableCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FBEA61BF8286C000D9520 /* VCTableCellData.swift */; };
+		E32FBEAC1BF8286C000D9520 /* VCTableCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FBEA71BF8286C000D9520 /* VCTableCoordinator.swift */; };
+		E32FBEAE1BF8322D000D9520 /* VCTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FBEAD1BF8322D000D9520 /* VCTableDataSource.swift */; };
+		E32FBEB01BF833A3000D9520 /* VCTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32FBEAF1BF833A3000D9520 /* VCTableDelegate.swift */; };
+		E3E8B7851BF83FCD0056005E /* MyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8B7841BF83FCD0056005E /* MyAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E32FBE8D1BF82376000D9520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32FBE701BF82376000D9520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E32FBE771BF82376000D9520;
+			remoteInfo = SlimTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E32FBE781BF82376000D9520 /* SlimTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlimTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32FBE7B1BF82376000D9520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E32FBE801BF82376000D9520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E32FBE821BF82376000D9520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E32FBE851BF82376000D9520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E32FBE871BF82376000D9520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32FBE8C1BF82376000D9520 /* SlimTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlimTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32FBE901BF82376000D9520 /* SlimTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlimTableViewTests.swift; sourceTree = "<group>"; };
+		E32FBE921BF82376000D9520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32FBEA31BF8286C000D9520 /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		E32FBEA41BF8286C000D9520 /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		E32FBEA51BF8286C000D9520 /* VCTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTable.swift; sourceTree = "<group>"; };
+		E32FBEA61BF8286C000D9520 /* VCTableCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTableCellData.swift; sourceTree = "<group>"; };
+		E32FBEA71BF8286C000D9520 /* VCTableCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTableCoordinator.swift; sourceTree = "<group>"; };
+		E32FBEAD1BF8322D000D9520 /* VCTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTableDataSource.swift; sourceTree = "<group>"; };
+		E32FBEAF1BF833A3000D9520 /* VCTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTableDelegate.swift; sourceTree = "<group>"; };
+		E3E8B7841BF83FCD0056005E /* MyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E32FBE751BF82376000D9520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32FBE891BF82376000D9520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E32FBE6F1BF82376000D9520 = {
+			isa = PBXGroup;
+			children = (
+				E32FBE7A1BF82376000D9520 /* SlimTableView */,
+				E32FBE8F1BF82376000D9520 /* SlimTableViewTests */,
+				E32FBE791BF82376000D9520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E32FBE791BF82376000D9520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E32FBE781BF82376000D9520 /* SlimTableView.app */,
+				E32FBE8C1BF82376000D9520 /* SlimTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E32FBE7A1BF82376000D9520 /* SlimTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E3E8B7831BF83ECD0056005E /* MyAPI */,
+				E32FBEA11BF8286C000D9520 /* ViewControllers */,
+				E32FBE7B1BF82376000D9520 /* AppDelegate.swift */,
+				E32FBE7F1BF82376000D9520 /* Main.storyboard */,
+				E32FBE821BF82376000D9520 /* Assets.xcassets */,
+				E32FBE841BF82376000D9520 /* LaunchScreen.storyboard */,
+				E32FBE871BF82376000D9520 /* Info.plist */,
+			);
+			path = SlimTableView;
+			sourceTree = "<group>";
+		};
+		E32FBE8F1BF82376000D9520 /* SlimTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E32FBE901BF82376000D9520 /* SlimTableViewTests.swift */,
+				E32FBE921BF82376000D9520 /* Info.plist */,
+			);
+			path = SlimTableViewTests;
+			sourceTree = "<group>";
+		};
+		E32FBEA11BF8286C000D9520 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E32FBEA21BF8286C000D9520 /* VCTable */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E32FBEA21BF8286C000D9520 /* VCTable */ = {
+			isa = PBXGroup;
+			children = (
+				E32FBEA31BF8286C000D9520 /* TableCell.swift */,
+				E32FBEA41BF8286C000D9520 /* TableCell.xib */,
+				E32FBEA51BF8286C000D9520 /* VCTable.swift */,
+				E32FBEA61BF8286C000D9520 /* VCTableCellData.swift */,
+				E32FBEA71BF8286C000D9520 /* VCTableCoordinator.swift */,
+				E32FBEAD1BF8322D000D9520 /* VCTableDataSource.swift */,
+				E32FBEAF1BF833A3000D9520 /* VCTableDelegate.swift */,
+			);
+			path = VCTable;
+			sourceTree = "<group>";
+		};
+		E3E8B7831BF83ECD0056005E /* MyAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E3E8B7841BF83FCD0056005E /* MyAPI.swift */,
+			);
+			path = MyAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E32FBE771BF82376000D9520 /* SlimTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32FBE951BF82376000D9520 /* Build configuration list for PBXNativeTarget "SlimTableView" */;
+			buildPhases = (
+				E32FBE741BF82376000D9520 /* Sources */,
+				E32FBE751BF82376000D9520 /* Frameworks */,
+				E32FBE761BF82376000D9520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlimTableView;
+			productName = SlimTableView;
+			productReference = E32FBE781BF82376000D9520 /* SlimTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E32FBE8B1BF82376000D9520 /* SlimTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32FBE981BF82376000D9520 /* Build configuration list for PBXNativeTarget "SlimTableViewTests" */;
+			buildPhases = (
+				E32FBE881BF82376000D9520 /* Sources */,
+				E32FBE891BF82376000D9520 /* Frameworks */,
+				E32FBE8A1BF82376000D9520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32FBE8E1BF82376000D9520 /* PBXTargetDependency */,
+			);
+			name = SlimTableViewTests;
+			productName = SlimTableViewTests;
+			productReference = E32FBE8C1BF82376000D9520 /* SlimTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E32FBE701BF82376000D9520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Wane Wang";
+				TargetAttributes = {
+					E32FBE771BF82376000D9520 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E32FBE8B1BF82376000D9520 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E32FBE771BF82376000D9520;
+					};
+				};
+			};
+			buildConfigurationList = E32FBE731BF82376000D9520 /* Build configuration list for PBXProject "SlimTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E32FBE6F1BF82376000D9520;
+			productRefGroup = E32FBE791BF82376000D9520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E32FBE771BF82376000D9520 /* SlimTableView */,
+				E32FBE8B1BF82376000D9520 /* SlimTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E32FBE761BF82376000D9520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32FBE861BF82376000D9520 /* LaunchScreen.storyboard in Resources */,
+				E32FBE831BF82376000D9520 /* Assets.xcassets in Resources */,
+				E32FBEA91BF8286C000D9520 /* TableCell.xib in Resources */,
+				E32FBE811BF82376000D9520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32FBE8A1BF82376000D9520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E32FBE741BF82376000D9520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32FBEA81BF8286C000D9520 /* TableCell.swift in Sources */,
+				E32FBEAA1BF8286C000D9520 /* VCTable.swift in Sources */,
+				E32FBEAE1BF8322D000D9520 /* VCTableDataSource.swift in Sources */,
+				E32FBEAC1BF8286C000D9520 /* VCTableCoordinator.swift in Sources */,
+				E32FBE7C1BF82376000D9520 /* AppDelegate.swift in Sources */,
+				E32FBEB01BF833A3000D9520 /* VCTableDelegate.swift in Sources */,
+				E3E8B7851BF83FCD0056005E /* MyAPI.swift in Sources */,
+				E32FBEAB1BF8286C000D9520 /* VCTableCellData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32FBE881BF82376000D9520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32FBE911BF82376000D9520 /* SlimTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E32FBE8E1BF82376000D9520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E32FBE771BF82376000D9520 /* SlimTableView */;
+			targetProxy = E32FBE8D1BF82376000D9520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E32FBE7F1BF82376000D9520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32FBE801BF82376000D9520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E32FBE841BF82376000D9520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32FBE851BF82376000D9520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E32FBE931BF82376000D9520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E32FBE941BF82376000D9520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E32FBE961BF82376000D9520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlimTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jhihguan.SlimTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E32FBE971BF82376000D9520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlimTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jhihguan.SlimTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E32FBE991BF82376000D9520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlimTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jhihguan.SlimTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlimTableView.app/SlimTableView";
+			};
+			name = Debug;
+		};
+		E32FBE9A1BF82376000D9520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlimTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jhihguan.SlimTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlimTableView.app/SlimTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E32FBE731BF82376000D9520 /* Build configuration list for PBXProject "SlimTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32FBE931BF82376000D9520 /* Debug */,
+				E32FBE941BF82376000D9520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32FBE951BF82376000D9520 /* Build configuration list for PBXNativeTarget "SlimTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32FBE961BF82376000D9520 /* Debug */,
+				E32FBE971BF82376000D9520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32FBE981BF82376000D9520 /* Build configuration list for PBXNativeTarget "SlimTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32FBE991BF82376000D9520 /* Debug */,
+				E32FBE9A1BF82376000D9520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E32FBE701BF82376000D9520 /* Project object */;
+}
